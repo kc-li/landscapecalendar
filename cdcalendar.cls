@@ -431,7 +431,7 @@
   \fi%
   \tikz\node[rectangle split, rectangle split parts=2,
     rectangle split part align={left,left},
-    text width=#2,inner xsep=0pt, inner ysep=1pt, font=\itshape\tiny]
+    text width=#2,inner xsep=0pt, inner ysep=12pt, font=\itshape\tiny]
   {\includegraphics[width=#2]{#3} \nodepart{second} #1};\par
   \vspace*{\illusSkip}%
   \if@landscapecal
